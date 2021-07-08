@@ -97,7 +97,7 @@ return [
     |
     */
 
-    'templates'         => 'adminlte-templates',
+    'templates'         => 'stisla-templates',
 
     /*
     |--------------------------------------------------------------------------
@@ -130,13 +130,13 @@ return [
 
         'softDelete' => true,
 
-        'save_schema_file' => true,
+        'save_schema_file' => false,
 
         'localized' => false,
 
         'tables_searchable_default' => false,
 
-        'repository_pattern' => true,
+        'repository_pattern' => false,
 
         'resources' => false,
 
@@ -174,7 +174,7 @@ return [
 
         'tests'         => true,
 
-        'datatables'    => false,
+        'datatables'    => true,
 
         'menu'          => [
 
